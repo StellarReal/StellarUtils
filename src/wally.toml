@@ -3,5 +3,7 @@ name = "stellarreal/stellarutils"
 description = "Bunch of useful Roblox functions."
 version = "1.0.0"
 license = "MIT"
+registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-private = true
+
+[dependencies]
