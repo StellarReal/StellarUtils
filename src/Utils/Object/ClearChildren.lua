@@ -1,6 +1,6 @@
 local Utils = require(script:FindFirstAncestor("Utils"))
 
-return function(parent: Instance, name_or_function: string? | (Child: Instance) -> (boolean?), class_or_recursive: string? | boolean?, recursive: boolean?): number
+return function(parent: Instance, name_or_function, class_or_recursive, recursive: boolean?): number
 	local n = 0
 	
 	if type(name_or_function) == "function" then
