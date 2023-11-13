@@ -1,4 +1,4 @@
-return function(parent: Instance, name_or_function: string? | (Child: Instance) -> (boolean?), class_or_recursive: string? | boolean?, recursive: boolean?): {Instance}
+return function(parent, name_or_function, class_or_recursive, recursive)
 	local newChildren = {}
 	local children = nil
 
