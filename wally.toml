@@ -1,0 +1,8 @@
+[package]
+name = "StellarReal/StellarUtils"
+description = "Bunch of useful Roblox functions."
+version = "1.0.0"
+license = "MIT"
+authors = ["Rabbi Mirza"]
+realm = "shared"
+private = true
